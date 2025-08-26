@@ -69,7 +69,3 @@ Key goals include:
 * 📊 Analytics dashboard for sales and inventory
 * 📷 Barcode/QR code scanning support
 * 🏪 Multi-branch store management
-
-## 🤝 Contributing
-
-Contributions are welcome. Please fork the repository, make your changes, and submit a pull request.
