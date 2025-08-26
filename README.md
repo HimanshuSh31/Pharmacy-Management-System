@@ -34,9 +34,27 @@ Key goals include:
 
 ## 🛠️ Tech Stack
 
-* **Frontend:** (e.g., HTML, CSS, JavaScript)
-* **Backend:** (e.g., Python, Java, PHP)
-* **Database:** (e.g., MySQL, SQLite, PostgreSQL)
+### 💻 Frontend
+
+* **Streamlit**: Python-based web UI framework
+* **Pandas**: For displaying and managing tabular data
+* **PIL (Pillow)**: For handling and displaying images
+
+### ⚙️ Backend
+
+* **Python 3**: Core programming language
+* **SQLite3**: Local relational database (tables for Drugs, Customers, Orders)
+* **SQL (MySQL compatible)**: Schema (`drugdatabase.sql`) designed with triggers, procedures, and constraints for advanced database operations
+
+### 🗄️ Database
+
+* **SQLite (`drug_data.db`)**: Used directly by the application (`main.py`) for real-time CRUD operations
+* **MySQL (via `drugdatabase.sql`)**: Defines scalable schema with triggers and stored procedures for production-level use
+
+### 🔑 Additional Tools
+
+* **Random module**: For unique order ID generation
+* **Streamlit Sidebar & Widgets**: For interactive dashboards and forms
 
 ## 📖 Usage
 
